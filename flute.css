@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(#272640, #312244, #3e1f47, #4d194d);
+    height: 100vh;
+}
+
+.text{
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-size: 40px;
+    /* font-family: 'Sacramento', cursive; */
+    font-family: 'Tangerine', cursive;
+    padding-top: 20px;
+}
+
+.flute{
+    width: 86%;
+    display: flex;
+    margin: 10%;
+    margin-top: 20%;
+    justify-content: center;
+    border-radius: 40px 8px 8px 40px;
+    align-items: center;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.8);
+    /* background: url('Indian_Flute-1.png'); */
+    background-image: linear-gradient(#c32f27, #e85d04, #f48c06, #ffba08, #f28f3b, #e85d04);
+}
+
+.flutebtn{
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-image: linear-gradient(#000000, #2b2d42, #8d99ae);
+    border: none;
+    margin: 20px;
+    border-radius: 50%;
+    outline: none;
+}
+
+.design{
+    border-radius: 50%;
+    margin: 0.6% 4% 0.6% 2%;
+    border-right: 4px solid #370617;
+    /* float: left; */
+    background-image: linear-gradient(#370617, #6a040f, #dc2f02, #e85d04);
+}
+
+@media only screen and (max-width: 900px){
+    .flute{
+        margin-top: 28%;
+    }
+
+    .flutebtn{
+        position: relative;
+        width: 13px;
+        height: 13px;
+        background-color: black;
+        border: none;
+        margin: 15px;
+        border-radius: 50%;
+        outline: none;
+    }
+}
+
+@media only screen and (max-width: 700px)
+{
+    .flute{
+        margin-top: 40%;
+    }
+
+    .flutebtn{
+        position: relative;
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        border: none;
+        margin: 10px;
+        border-radius: 50%;
+        outline: none;
+    }
+}
