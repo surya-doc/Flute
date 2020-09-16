@@ -1,0 +1,318 @@
+body{
+  /* margin:0px;
+  padding:0px; */
+
+/* background:linear-gradient(to right,#5d54a4, #9d65c9); */
+background: url(https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80) rgba(93,84,164,0.6);
+
+background-blend-mode: multiply;
+   /* background-size: 100% 100%; */
+background-size: cover;
+  text-align: center;
+
+
+
+}
+ .back{
+  background:linear-gradient(#5d54a4, #9d65c9);
+  /* height:100%; */
+}
+#title{
+  /* box-sizing: border-box; */
+  margin:auto;
+  margin-top:2%;
+  width:40%;
+  /* border-radius: 20px; */
+  /* border-width:20px; */
+  border-bottom: solid white 2px;
+  /* border:white solid; */
+  font-size: 285%;
+  text-align: center;
+  padding:2%;
+  font-weight: 1000;
+  color:white;
+  text-shadow: 2px 2px 8px #FF0000;
+
+  font-family: 'Great Vibes', cursive;
+
+}
+
+@media only screen and (max-width: 500px){
+  #title{
+    /* box-sizing: border-box; */
+    margin:auto;
+    margin-top:2%;
+    width:40%;
+    /* border-radius: 20px; */
+    /* border-width:20px; */
+    border-bottom: solid white 2px;
+    /* border:white solid; */
+    font-size: 225%;
+    text-align: center;
+    padding:2%;
+    font-weight: 1000;
+    color:white;
+    text-shadow: 2px 2px 8px #FF0000;
+  
+    font-family: 'Great Vibes', cursive;
+  
+  }
+}
+
+.stitle{
+  /* box-sizing: border-box; */
+  font-family: 'Shadows Into Light', cursive;
+
+  width:50%;
+  margin:5% auto;
+  font-size: 170%;
+  font-weight: 800;
+  text-align: center;
+  padding:2%;
+  color:rgb(43, 255, 255);
+}
+
+@media only screen and(max-width: 900px){
+  .stitle{
+    /* box-sizing: border-box; */
+    font-family: 'Shadows Into Light', cursive;
+  
+    width:50%;
+    margin:5% auto;
+    font-size: 22px;
+    font-weight: 800;
+    text-align: center;
+    padding:2%;
+    color:rgb(43, 255, 255);
+  }
+}
+
+button{
+  border-radius:50%;
+  outline:none;
+  /* border:black solid; */
+}
+span{
+  -webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10+ and Edge */
+user-select: none; /* Standard syntax */
+}
+.xylo{
+margin:auto;
+width: 50%;
+}
+
+.DO{
+  height:290px;
+  width: 13%;
+  
+  margin-bottom: 80px;
+  /* background:linear-gradient(45deg,#ED5564,white); */
+  background: #ED5564;
+  border-radius: 4%;
+  display:block;
+  float:left;
+
+}
+.RE{
+  margin-top:10px;
+  height:280px;
+  width: 13%;
+  /* background:linear-gradient(45deg,#FFCE54,white); */
+  background: #FFCE54;
+  border-radius: 4%;
+  display:block;
+  float:left;
+
+}
+
+.MI{
+  margin-top:15px;
+  height:270px;
+  width: 13%;
+  /* background:linear-gradient(45deg,#A0D568,white); */
+  background: #A0D568;
+  border-radius: 4%;
+  display:block;
+  float:left;
+
+}
+
+.FA{
+  margin-top:20px;
+  height:260px;
+  width: 13%;
+  /* background:linear-gradient(45deg,#49da9a,white); */
+  background: #49da9a;
+  border-radius: 4%;
+  display:block;
+  float:left;
+}
+
+.SO{
+  margin-top:25px;
+  height:250px;
+  width: 13%;
+  /* background:linear-gradient(45deg,#4FC1E8,white); */
+  background: #4FC1E8;
+  border-radius: 4%;
+  display:block;
+  float:left;
+}
+
+
+.LA{
+  margin-top:30px;
+  height:240px;
+  width: 13%;
+  /* background:linear-gradient(45deg,#AC92EB,white); */
+  background: #4355db;
+  border-radius: 4%;
+  display:block;
+  float:left;
+}
+
+
+.TI{
+  margin-top:35px;
+  height:230px;
+  width: 13%;
+  /* background:linear-gradient(45deg,yellow,white); */
+  background: #AC92EB;
+  border-radius: 4%;
+  display:block;
+  float:left;
+}
+
+
+
+
+@media only screen and (max-width: 700px){
+  .DO{
+    height:250px;
+    width: 14%;
+    
+    margin-bottom: 80px;
+    /* background:linear-gradient(45deg,#ED5564,white); */
+    background: #ED5564;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  
+  }
+  .RE{
+    margin-top:10px;
+    height:240px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#FFCE54,white); */
+    background: #FFCE54;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  
+  }
+  
+  .MI{
+    margin-top:15px;
+    height:230px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#A0D568,white); */
+    background: #A0D568;
+    border-radius: 6px 6px 0 0;;
+    display:block;
+    float:left;
+  
+  }
+  
+  .FA{
+    margin-top:20px;
+    height:220px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#49da9a,white); */
+    background: #49da9a;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  }
+  
+  .SO{
+    margin-top:25px;
+    height:210px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#4FC1E8,white); */
+    background: #4FC1E8;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  }
+  
+  
+  .LA{
+    margin-top:30px;
+    height:200px;
+    width: 14%;
+    /* background:linear-gradient(45deg,#AC92EB,white); */
+    background: #4355db;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  }
+  
+  
+  .TI{
+    margin-top:35px;
+    height:190px;
+    width: 14%;
+    /* background:linear-gradient(45deg,yellow,white); */
+    background: #AC92EB;
+    border-radius: 6px 6px 0 0;
+    display:block;
+    float:left;
+  }
+}
+
+
+
+/* Dropdown Button */
+.dropbtn {
+  color: white;
+  background-color: rgba(0,0,0,0);
+  /* padding: 16px; */
+
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(157,101,201,0.6);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: rgba(157,101,201);}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+.pressed{
+  box-shadow: 0 3px 4px 0;
+  opacity: 0.5;
+}
